@@ -29,8 +29,6 @@ public class BaseTest {
         browser = new ChromeDriver(options);
     }
 
-    //Проверка
-
     @After
     public void tearDown() {
         Selenide.closeWebDriver();
