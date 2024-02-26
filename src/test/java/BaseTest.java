@@ -29,11 +29,6 @@ public class BaseTest {
         browser = new ChromeDriver(options);
     }
 
-    @Before
-    public void init() {
-        setup();
-    }
-
     @After
     public void tearDown() {
         Selenide.closeWebDriver();
